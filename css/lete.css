@@ -1,0 +1,17 @@
+/* 隐藏回到顶部,更改为Up */
+#go-up i {
+    display: none;
+    background-color: transparent !important;
+}
+#go-up {
+    background-color: transparent !important;
+}
+
+#upj {
+    transform: translate(-70px,-80px) !important;
+}
+
+/*新版3.0.0以上添加up酱置顶ico图标上移问题*/
+.fas.fa-arrow-up {
+    line-height: 2;
+}
