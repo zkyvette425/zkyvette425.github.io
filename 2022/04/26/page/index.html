@@ -180,7 +180,7 @@ if ('Waline' === 'Waline' || !false) {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
       envId: 'https://hexo-varcel-564a4ml3u-zkyvette425.vercel.app',
-      region: 'ap-shenzheng',
+      region: '',
       onCommentLoaded: function () {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.vemoji)'))
       }
@@ -190,7 +190,7 @@ if ('Waline' === 'Waline' || !false) {
   const getCount = () => {
     twikoo.getCommentsCount({
       envId: 'https://hexo-varcel-564a4ml3u-zkyvette425.vercel.app',
-      region: 'ap-shenzheng',
+      region: '',
       urls: [window.location.pathname],
       includeReply: false
     }).then(function (res) {
